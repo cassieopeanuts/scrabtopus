@@ -16,51 +16,37 @@ fn scrape_page(url: &str) -> Result<Vec<String>, Box<dyn Error>> {
     // Parse the HTML body
     let document = Html::parse_document(&body);
 
-    // Selectors to extract data (modify these to fit your use case)
-    let div_selector = Selector::parse("div, p, section, article").unwrap();  // Target main content elements
-    let span_selector = Selector::parse("span").unwrap(); // Select all spans
-    let button_selector = Selector::parse("button, .btn, .swiper-button-next, .swiper-button-prev, .swiper-pagination, form, input, .footer_menu_flex, .footer_menu, footer_logo_wrap, .join_preview, .stat_badge, .stat_section, .browser-warning-container, .cookie_modal, .close_modal").unwrap();  // Select buttons and UI elements to skip
+    // Refined Selector - Targeting specific sections like `section` or `.main-area` 
+    let section_selector = Selector::parse("section, .main-area, .content").unwrap();  
+    let button_selector = Selector::parse("button, .btn, form, input, footer").unwrap();  // Skip interactive UI elements
 
     let mut data = Vec::new();
     let mut seen_content = HashSet::new();  // Use HashSet to track seen content
 
-    // Extract text from divs, paragraphs, sections, and articles
-    for element in document.select(&div_selector) {
-        // Skip elements that are interactive buttons, forms, or pagination
+    // Extract text from sections or main content areas
+    for element in document.select(&section_selector) {
+        // Skip elements that are buttons, forms, etc.
         if element.select(&button_selector).count() > 0 {
             continue;
         }
 
-        // Collect meaningful text from these elements
+        // Collect meaningful text
         let content = element.text().collect::<Vec<_>>().join(" ").trim().to_string();
 
-        // Filter out buttons, cookie texts, and navigation-related keywords
+        // Filter out non-content text
         if !content.is_empty()
-
             && !content.contains("sign up")
             && !content.contains("privacy policy")
-
         {
             let normalized_content = normalize_text(&content);
-            // Only add if this content hasn't been seen before
+            // Avoid duplications by checking if content is already seen
             if seen_content.insert(normalized_content.clone()) {
-                data.push(content);  // Preserve original content order
+                data.push(content);  // Store unique content
             }
         }
     }
 
-    // Optionally collect text from span elements as well, if needed
-    for element in document.select(&span_selector) {
-        let content = element.text().collect::<Vec<_>>().join(" ").trim().to_string();
-        if !content.is_empty() && !content.contains("cookie") && !content.contains("sign up") {
-            let normalized_content = normalize_text(&content);
-            if seen_content.insert(normalized_content.clone()) {
-                data.push(content);
-            }
-        }
-    }
-
-    Ok(data)  // No sorting, content is in original order
+    Ok(data)  // Return the collected data
 }
 
 fn write_to_csv(data: Vec<String>, output_path: &str) -> Result<(), Box<dyn Error>> {
