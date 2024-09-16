@@ -1,0 +1,1406 @@
+{
+  "pages": [
+    {
+      "url": "https://holochain.org/",
+      "title": "An end-to-end open source P2P app framework",
+      "sections": [
+        {
+          "header": "An end-to-end open source P2P app framework",
+          "content": [
+            "Unparalleled coordination and collaboration, at scale",
+            "Holochain gives digital agency to organizations, markets, and people. By combining cryptography, distributed databases, and consensus-free validation—new social magic is possible."
+          ]
+        },
+        {
+          "header": "Unparalleled coordination and collaboration, at scale",
+          "content": [
+            "Holochain gives digital agency to organizations, markets, and people. By combining cryptography, distributed databases, and consensus-free validation—new social magic is possible."
+          ]
+        },
+        {
+          "header": "Secure and resilient, without servers or blockchains.",
+          "content": [
+            "1",
+            "You install an app, which signs and stores your data on your device.",
+            "2",
+            "You share your public data with a random set of peers.",
+            "3",
+            "Your peers validate the data against the app’s rules before storing it.",
+            "4",
+            "Invalid data triggers a network-wide security response."
+          ]
+        },
+        {
+          "header": "App  Devs",
+          "content": [
+            "Serverless",
+            "The community is the infrastructure. Scale with the popularity of your app.",
+            "Connectable",
+            "Access other Holochain apps as if they were part of your codebase. No HTTP client, just function calls with optional access control.",
+            "Resilient",
+            "Compute and data live at the edges, which means there’s no infrastructure for you to maintain and defend. Holochain automatically adapts to disruptions and threats."
+          ]
+        },
+        {
+          "header": "Blockchain  Devs",
+          "content": [
+            "Configurable",
+            "You choose your own terms. Set privileges, governance policies, and consensus rules according to your needs.",
+            "Scalable",
+            "Fast, cheap, and truly peer-to-peer compute and data. No processing fees or block confirmation wait times.",
+            "Forkable",
+            "Iterate to perfect. Hard forks aren’t governance crises but opportunities to play a new game."
+          ]
+        },
+        {
+          "header": "Next Up for Holochain",
+          "content": [
+            "Workflow Resiliency & Integrity Audit",
+            "Workflow reliability tests are conducted to ensure determinism and guarantee data integrity. These tests verify that the workflows perform as expected, and in doing so, they uphold the trustworthiness of the data and the overall robustness of applications.",
+            "DeepKey Integration to Holochain",
+            "DeepKey would run as the first application installed on a Conductor, before other services, so that it can register and manage keys for any of those hApps or services. This key management system will be made available to all hApps as a Conductor Service.",
+            "Performance Testing",
+            "Evaluate Holochain's performance over time to identify regressions and understand the impact of new features on its performance, while also providing basic operational performance statistics for Holochain with each release.",
+            "Multi-Signal and Bootstrap Server Connection",
+            "We aim to enable conductors to establish connections with multiple signal and bootstrap servers concurrently."
+          ]
+        },
+        {
+          "header": "Holochain for Networked Applications",
+          "content": [
+            "Building the everyday applications that power our lives."
+          ]
+        },
+        {
+          "header": "Showcasing the Building Blocks of Holochain",
+          "content": [
+            "Holochain is a chain like no other: simultaneously a validated onchain experience, and a fully distributed peer-to-peer application framework. This makes Holochain unique in the world of software and distributed networks. Here are a few building blocks that demonstrate what is possible.",
+            "Collaboration",
+            "'We' is a meta-app or interface for creating groupware that is shareable, forkable, and fusible, giving new powers to self-governing groups. As agent-centric software, each user decides what groups and applets they opt into.",
+            "Coordination",
+            "'hREA' is superpowered economic coordination for businesses, communities, and commons — and the networks between them. It is simple, modular, and composable for developers to build precisely for their groups' needs.",
+            "Synchronicity",
+            "'Syn' is a pair of JavaScript and Holochain libraries that work together to demonstrate synchronous coordination with Holochain apps. This allows teams to collaborate with real-time editing during live sessions."
+          ]
+        },
+        {
+          "header": "What the Community is Saying",
+          "content": [
+            "The Holochain ecosystem is a really fun and exciting place to explore the possibilities and impact of fully distributed, scalable, and peer-to-peer applications!",
+            "Tatsuya Sato | Japan",
+            "CEO, Yumeville",
+            "The best apps of the 21st century will be built on Holochain.",
+            "Jamie Klinger | Canada",
+            "Holochain is providing the opportunity for people to generate, hold and own their own data so that they can do what they want with it, for the first time ever.",
+            "Kathryn Alexander | Australia",
+            "Founder of Health Commons",
+            "Holochain enables collaborative, distributed apps that fit the needs of the communities they serve—without inserting any complicated consensus mechanisms or unnecessary coins to ensure integrity.",
+            "Alex Ocean | US",
+            "I thought \"agent-centric tech\" was just marketing. But I realised this shift is actually fundamental in moving towards a world where individual and collective autonomy are honoured.",
+            "pospi | Australia",
+            "Holochain is the vision holder for technology that is created to support core human values: agency, connection, and freedom.",
+            "Rūta Žemčugovaitė | Germany",
+            "Humane Tech Advocate",
+            "Holochain just feels right. Everything from the technical architecture, the approach to community, to the broader vision. It feels right and exciting to be playing with all of these wonderful humans.",
+            "Guillem Córdoba | Spain",
+            "Holochain Architect & Community Member",
+            "Holochain has a great collective of people who really want to see a paradigm shift to a more prosocial society and conscious peer-to-peer economic systems.",
+            "Thomas Cal | Western Europe",
+            "Decentralized Community Driven Everything"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events",
+      "title": "Upcoming Events",
+      "sections": [
+        {
+          "header": "Token2049 Singapore",
+          "content": [
+            "When:",
+            "September 18 – 19, 2024",
+            "Location:",
+            "Marina Bay Sands, Singapore",
+            "The Holochain team is set to participate in TOKEN2049 in Singapore on September 18–19."
+          ]
+        },
+        {
+          "header": "Zebu Live 2024",
+          "content": [
+            "When:",
+            "October 10 – 11, 2024",
+            "Location:",
+            "London, UK",
+            "Join Mary Camacho and the Holochain team at Zebu Live 2024 on October 10–11."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/token2049-singapore",
+      "title": "Token2049 Singapore",
+      "sections": [
+        {
+          "header": "Token2049 Singapore",
+          "content": [
+            "The Holochain team is set to participate in TOKEN2049 in Singapore on September 18–19. This renowned global conference series serves as a hub where key players in the crypto ecosystem convene to share ideas, build networks, and influence the industry's direction."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/zebu-live-2024",
+      "title": "Zebu Live 2024",
+      "sections": [
+        {
+          "header": "Zebu Live 2024",
+          "content": [
+            "Join Mary Camacho and the Holochain team at Zebu Live 2024 on October 10–11. We are sponsoring for the second year in a row because the event brings together as many perspectives as possible to work towards mainstream adoption of Web3 technologies."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/projects#currencies_project",
+      "title": "Projects",
+      "sections": [
+        {
+          "header": "Projects",
+          "content": [
+            "Holochain represents a new concept in software architecture and provides unique qualities that neither Web 2.0 nor blockchain offer."
+          ]
+        },
+        {
+          "header": "Explore what people are building on Holochain",
+          "content": [
+            "A diverse community of developers, enterprises and researchers are using Holochain to solve challenging, real-world problems. Here are a few highlights."
+          ]
+        },
+        {
+          "header": "Neighbourhoods",
+          "content": [
+            "Giving groups the capacity to intentionally design cultural values into their groupware tools."
+          ]
+        },
+        {
+          "header": "Internet of Energy Network (IOEN)",
+          "content": [
+            "A software protocol to coordinate devices that produce, consume, or store electricity."
+          ]
+        },
+        {
+          "header": "NFTs on Holochain",
+          "content": [
+            "NFTs are more straightforward, more versatile, and more cost- and energy-efficient to run on Holochain than on blockchain."
+          ]
+        },
+        {
+          "header": "Why distributed apps?",
+          "content": [
+            "Holochain is designed to address the original vision of the Internet: creation of an antifragile and secure peer-to-peer computing system. Unlike client-server apps, distributed apps allow individuals to communicate directly with one another. The architecture of Holochain mimics living systems in an attempt to reach a greater level of collective coordination, scalability, and resilience as compared to existing systems which are designed around multiple single-points-of-failure."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/projects#energy_project",
+      "title": "Projects",
+      "sections": [
+        {
+          "header": "Projects",
+          "content": [
+            "Holochain represents a new concept in software architecture and provides unique qualities that neither Web 2.0 nor blockchain offer."
+          ]
+        },
+        {
+          "header": "Explore what people are building on Holochain",
+          "content": [
+            "A diverse community of developers, enterprises and researchers are using Holochain to solve challenging, real-world problems. Here are a few highlights."
+          ]
+        },
+        {
+          "header": "Neighbourhoods",
+          "content": [
+            "Giving groups the capacity to intentionally design cultural values into their groupware tools."
+          ]
+        },
+        {
+          "header": "Internet of Energy Network (IOEN)",
+          "content": [
+            "A software protocol to coordinate devices that produce, consume, or store electricity."
+          ]
+        },
+        {
+          "header": "NFTs on Holochain",
+          "content": [
+            "NFTs are more straightforward, more versatile, and more cost- and energy-efficient to run on Holochain than on blockchain."
+          ]
+        },
+        {
+          "header": "Why distributed apps?",
+          "content": [
+            "Holochain is designed to address the original vision of the Internet: creation of an antifragile and secure peer-to-peer computing system. Unlike client-server apps, distributed apps allow individuals to communicate directly with one another. The architecture of Holochain mimics living systems in an attempt to reach a greater level of collective coordination, scalability, and resilience as compared to existing systems which are designed around multiple single-points-of-failure."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/projects#social_impact_project",
+      "title": "Projects",
+      "sections": [
+        {
+          "header": "Projects",
+          "content": [
+            "Holochain represents a new concept in software architecture and provides unique qualities that neither Web 2.0 nor blockchain offer."
+          ]
+        },
+        {
+          "header": "Explore what people are building on Holochain",
+          "content": [
+            "A diverse community of developers, enterprises and researchers are using Holochain to solve challenging, real-world problems. Here are a few highlights."
+          ]
+        },
+        {
+          "header": "Neighbourhoods",
+          "content": [
+            "Giving groups the capacity to intentionally design cultural values into their groupware tools."
+          ]
+        },
+        {
+          "header": "Internet of Energy Network (IOEN)",
+          "content": [
+            "A software protocol to coordinate devices that produce, consume, or store electricity."
+          ]
+        },
+        {
+          "header": "NFTs on Holochain",
+          "content": [
+            "NFTs are more straightforward, more versatile, and more cost- and energy-efficient to run on Holochain than on blockchain."
+          ]
+        },
+        {
+          "header": "Why distributed apps?",
+          "content": [
+            "Holochain is designed to address the original vision of the Internet: creation of an antifragile and secure peer-to-peer computing system. Unlike client-server apps, distributed apps allow individuals to communicate directly with one another. The architecture of Holochain mimics living systems in an attempt to reach a greater level of collective coordination, scalability, and resilience as compared to existing systems which are designed around multiple single-points-of-failure."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/roadmap/",
+      "title": "Holochain Roadmap",
+      "sections": []
+    },
+    {
+      "url": "https://holochain.org/what-holochain",
+      "title": "What is Holochain?",
+      "sections": [
+        {
+          "header": "An application framework",
+          "content": [
+            "Holochain is an",
+            "open-source framework",
+            "for creating peer-to-peer applications that are secure, reliable, and fast. Instead of depending on servers, Holochain applications connect user devices directly to each other in secure networks. This gives users the best of both worlds — the autonomy and availability of locally installed software, with the power and redundancy of cloud software. Application developers, in turn, no longer have to maintain and pay for cloud hosting."
+          ]
+        },
+        {
+          "header": "Agent-centric",
+          "content": [
+            "Holochain takes an",
+            "agent-centric",
+            "approach, putting you at the center of your computing experience. This isn’t just a pleasant-sounding philosophy; it’s actually how it’s built. Applications run on your device, creating self-owned identities and data. Open programming interfaces ensure you always have access, while consent-based permission control protects you from unauthorized use."
+          ]
+        },
+        {
+          "header": "Encrypted, peer-to-peer network",
+          "content": [
+            "Applications are more powerful when they connect you with others. Each Holochain application creates its own",
+            "encrypted peer-to-peer network",
+            "between you and the other users. This means nothing can co-opt, control, or shut down your communications."
+          ]
+        },
+        {
+          "header": "Mutual accountability",
+          "content": [
+            "Finally, online safety is ensured by",
+            "mutual accountability",
+            ". Each piece of data has a cryptographic audit trail connected to its author, and every user helps enforce shared application rules and identify bad actors. Meanwhile, Holochain’s ‘subconscious’ responds to identified threats and adapts to network failures, making the experience safe and reliable."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/all-events/",
+      "title": "All Events",
+      "sections": [
+        {
+          "header": "Zebu Live 2024",
+          "content": [
+            "When:",
+            "October 10 – 11, 2024",
+            "Location:",
+            "London, UK",
+            "Join Mary Camacho and the Holochain team at Zebu Live 2024 on October 10–11."
+          ]
+        },
+        {
+          "header": "Token2049 Singapore",
+          "content": [
+            "When:",
+            "September 18 – 19, 2024",
+            "Location:",
+            "Marina Bay Sands, Singapore",
+            "The Holochain team is set to participate in TOKEN2049 in Singapore on September 18–19."
+          ]
+        },
+        {
+          "header": "Web3 Summit 2024",
+          "content": [
+            "When:",
+            "August 19 – 21, 2024",
+            "(past)",
+            "Location:",
+            "Funkhaus Berlin, Nalepastr. 18, 12459 Berlin, Germany",
+            "Web3 Summit offers an open and collaborative environment for the community to craft their own programming."
+          ]
+        },
+        {
+          "header": "DWeb Camp 2024",
+          "content": [
+            "When:",
+            "August 7 - 11, 2024",
+            "(past)",
+            "Location:",
+            "Camp Navarro, California, 95463, USA",
+            "The Holochain team will once again have a strong presence at DWeb Camp this August, to explore the theme of migration and how we can move together toward the Web we want and deserve."
+          ]
+        },
+        {
+          "header": "Our Networks",
+          "content": [
+            "When:",
+            "July 27, 2024",
+            "(past)",
+            "Location:",
+            "312 Main, Vancouver, BC Canada",
+            "We are sponsoring the Our Networks event on July 27, 2024 as part of LOCALHOST."
+          ]
+        },
+        {
+          "header": "Collaborative Finance 2",
+          "content": [
+            "When:",
+            "June 30 - July 4, 2024",
+            "(past)",
+            "Location:",
+            "Ezemaal (LANDEN), Belgium",
+            "We are sponsoring the Collaborative Finance Retreat by Crypto Commons Association (CCA)."
+          ]
+        },
+        {
+          "header": "Digital Identity unConference Europe 2024",
+          "content": [
+            "When:",
+            "June 18 - 20, 2024",
+            "(past)",
+            "Location:",
+            "Trust Square Bahnhofstrasse, Zürich (CH)",
+            "Matthew Schutte is attending the Digital Identity unConference Europe in Zurich on June 18, 2024."
+          ]
+        },
+        {
+          "header": "Emerging Tech 2024",
+          "content": [
+            "When:",
+            "June 14th, 2024",
+            "(past)",
+            "Location:",
+            "Capitol Visitors Center in Washington D.C",
+            "Join Mary at Emerging Tech 2024 on Friday, June 14th in Washington, D.C"
+          ]
+        },
+        {
+          "header": "Identity Week",
+          "content": [
+            "When:",
+            "June 11th - 12th, 2024",
+            "(past)",
+            "Location:",
+            "RAI Exhibition Centre in Amsterdam",
+            "Mary will be speaking about distributed digital identity on June 12th at Identity Week Europe."
+          ]
+        },
+        {
+          "header": "Transformative Impact Summit",
+          "content": [
+            "When:",
+            "June 7 - 9, 2024",
+            "(past)",
+            "Location:",
+            "Zanzibar, Tanzania",
+            "Join Matthew Schutte and other changemakers, founders, and policymakers in Zanzibar, Tanzania, at the Transformative Impact Summit on June 7."
+          ]
+        },
+        {
+          "header": "European Identity and Cloud Conference 2024",
+          "content": [
+            "When:",
+            "June 4 - 7, 2024",
+            "(past)",
+            "Location:",
+            "Berlin, bcc Berlin Congress Center",
+            "Both Holo and Holochain team members are attending this conference in Berlin."
+          ]
+        },
+        {
+          "header": "Zanzalu",
+          "content": [
+            "When:",
+            "May 15 - June 21, 2024",
+            "(past)",
+            "Location:",
+            "Fumba Town, Zanzibar",
+            "Join Matthew Schutte and the community of builders, entrepreneurs, and outside-the-box thinkers seeking to meaningfully progress human flourishing through technological and social innovation."
+          ]
+        },
+        {
+          "header": "Web3 Dubai",
+          "content": [
+            "When:",
+            "April 30th - May 1st, 2024",
+            "(past)",
+            "Location:",
+            "Lavender Hotel Al Nahda, Dubai, UAE",
+            "Join Matthew Schutte on April 30th at Web3 Dubai as he discusses big wave surfing and internet innovation with the web3 community."
+          ]
+        },
+        {
+          "header": "ReFi Unconference Barcelona",
+          "content": [
+            "When:",
+            "April 20th - 25th, 2024",
+            "(past)",
+            "Location:",
+            "AKASHA Hub Barcelona Carrer de la Verneda, 19, Nave 1, Sant Martí Barcelona",
+            "Join Mary at ReFi Barcelona, a local gathering of the regenerative finance community in Catalunya and Spain, sponsored by the CCA."
+          ]
+        },
+        {
+          "header": "ETHDenver 2024",
+          "content": [
+            "When:",
+            "February 23 - March 3rd, 2024",
+            "(past)",
+            "Location:",
+            "Denver, USA",
+            "Holochain is sponsoring ETHDenver 2024. Join us for workshops, BUIDL teams, and Expo with showcases"
+          ]
+        },
+        {
+          "header": "NFT San Francisco",
+          "content": [
+            "When:",
+            "November 6th and 7th, 2023",
+            "(past)",
+            "Location:",
+            "San Francisco, USA",
+            "Join us at NFT San Francisco on November 6-7, where we will be taking part in panel discussions and"
+          ]
+        },
+        {
+          "header": "DWeb SF Meetup: Co-Creation & the Distributed Web",
+          "content": [
+            "When:",
+            "Thursday, November 2, 2023, 5 - 9pm PDT",
+            "(past)",
+            "Location:",
+            "Internet Archive, San Francisco, USA",
+            "CALLING all creators, designers, and Internet liberators — those drawn to innovations and"
+          ]
+        },
+        {
+          "header": "DazzleCon 2023",
+          "content": [
+            "When:",
+            "October 21st & 22nd, 2023",
+            "(past)",
+            "Location:",
+            "Washington D.C., USA",
+            "Building the new economy together. Art Brock and Mary Camacho join Zebras Unite for 2 days of"
+          ]
+        },
+        {
+          "header": "ZebuLive 2023",
+          "content": [
+            "When:",
+            "October 5th & 6th, 2023",
+            "(past)",
+            "Location:",
+            "London",
+            "Join Mary Camacho from Holochain and Josh Hardy with the Rain Protocol at Zebu Live where they will"
+          ]
+        },
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "When:",
+            "Thursday, October 5th, 2023 at 16:00 (UTC)",
+            "(past)",
+            "Location:",
+            "Zoom - link sent prior to event",
+            "Join members of the Holochain team and other people to try a distributed Holochain application."
+          ]
+        },
+        {
+          "header": "Online Holochain Dev Training",
+          "content": [
+            "When:",
+            "Monday, October 2nd - Saturday, October 7th, 2023",
+            "(past)",
+            "Location:",
+            "Online classroom",
+            "Learn how to design, develop, and deploy Holochain apps in 4 days"
+          ]
+        },
+        {
+          "header": "Holochain Hackathon — London",
+          "content": [
+            "When:",
+            "September 29th - October 1st, 2023",
+            "(past)",
+            "Location:",
+            "London, UK",
+            "Join our UK Holochain community for 2.5 days of hands-on Holochain learning in London, UK September"
+          ]
+        },
+        {
+          "header": "Crypto and Digital Assets Regulation & Compliance",
+          "content": [
+            "When:",
+            "Tuesday, September 26th, 2023",
+            "(past)",
+            "Location:",
+            "London",
+            "Mary Camacho and other industry leaders explore Metaverse regulation, including digital identity & personal data control."
+          ]
+        },
+        {
+          "header": "Holochain Hackathon — Amsterdam",
+          "content": [
+            "When:",
+            "September 22 - 24, 2023",
+            "(past)",
+            "Location:",
+            "Amsterdam, Netherlands",
+            "Join our European Holochain community for 2.5 days of hands-on Holochain learning in Amsterdam,"
+          ]
+        },
+        {
+          "header": "Developer Office Hours with Holochain Core Devs",
+          "content": [
+            "When:",
+            "September 20th, 2023 at 16:00 (UTC)",
+            "(past)",
+            "Location:",
+            "Discord",
+            "Designed to enable developers building on holochain to meet with Core Developers, ask questions,"
+          ]
+        },
+        {
+          "header": "Open Source Summit Europe",
+          "content": [
+            "When:",
+            "September 19th to 21st, 2023",
+            "(past)",
+            "Location:",
+            "Bilbao, Spain",
+            "Members of the Holochain team wil be at the Linux Foundation's Open Source Summit Europe, the"
+          ]
+        },
+        {
+          "header": "Nordic Blockchain Conference",
+          "content": [
+            "When:",
+            "September 6-7, 2023",
+            "(past)",
+            "Location:",
+            "Copenhagen, Denmark",
+            "Join Mary Camacho in Copenhagen in September where she'll moderate a panel explorering Privacy and Transparency in Web3 and Blockchain."
+          ]
+        },
+        {
+          "header": "Developer Office Hours with Holochain Core Devs",
+          "content": [
+            "When:",
+            "September 6th, 2023 at 16:00 (UTC)",
+            "(past)",
+            "Location:",
+            "Discord",
+            "Designed to enable developers building on holochain to meet with Core Developers, ask questions,"
+          ]
+        },
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "When:",
+            "Thursday, August 31th, 2023 at 15:00 (UTC)",
+            "(past)",
+            "Location:",
+            "Zoom - link sent prior to event",
+            "Join members of the Holochain team and other people to try a distributed Holochain application."
+          ]
+        },
+        {
+          "header": "Crypto Commons Gathering 2023",
+          "content": [
+            "When:",
+            "August 26th through September 1st, 2023",
+            "(past)",
+            "Location:",
+            "Commons Hub, Austria",
+            "Join Arthur Brock along with other leading professionals and projects shaping the conversation on Commons in Web3."
+          ]
+        },
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "When:",
+            "Thursday, August 24th, 2023 at 16:00 (UTC)",
+            "(past)",
+            "Location:",
+            "Zoom - link sent prior to event",
+            "Join the Holochain team and community members in experiencing what it’s like to use a serverless,"
+          ]
+        },
+        {
+          "header": "MetaFest 2023",
+          "content": [
+            "When:",
+            "Wednesday, August 16th to Friday, August 18th, 2023",
+            "(past)",
+            "Location:",
+            "Fort Punta Christo, Croatia",
+            "Join Arthur Brock to explore regenerative ecosystems and DAOs with Holochain at MetaFest."
+          ]
+        },
+        {
+          "header": "Holochain Developer AMA #1",
+          "content": [
+            "When:",
+            "Tuesday, August 15th, 2023 at 17:00 (UTC)",
+            "(past)",
+            "Location:",
+            "Zoom",
+            "Introducing the first in our series of Holochain Developer AMAs, for devs who have questions for our panel of Holochain developers."
+          ]
+        },
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "When:",
+            "Thursday, August 10th, 2023 at 1:00 (UTC)",
+            "(past)",
+            "Location:",
+            "Zoom - link sent prior to event",
+            "Join the Holochain team and community members in experiencing what it’s like to use a serverless,"
+          ]
+        },
+        {
+          "header": "Holochain Development Environment Setup Support",
+          "content": [
+            "When:",
+            "Thursday, August 3rd, 2023 at 13:00 (UTC)",
+            "(past)",
+            "Location:",
+            "Zoom - link sent prior to event",
+            "Holochain Development Environment Setup Support sessions aim to aid community members who are"
+          ]
+        },
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "When:",
+            "Saturday, July 29th, 2023 at 1:00 (UTC)",
+            "(past)",
+            "Location:",
+            "Zoom - link sent prior to event",
+            "Join the Holochain team and community members in experiencing what it’s like to use a serverless,"
+          ]
+        },
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "When:",
+            "Thursday, July 13th, 2023 at 16:00 (UTC)",
+            "(past)",
+            "Location:",
+            "Zoom - link sent prior to event",
+            "Join the Holochain team and community members in experiencing what it’s like to use a serverless,"
+          ]
+        },
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "When:",
+            "Thursday, June 29th, 2023 at 16:00 (UTC)",
+            "(past)",
+            "Location:",
+            "Zoom - link sent prior to event",
+            "Join members of the Holochain team and other people to try a distributed Holochain application."
+          ]
+        },
+        {
+          "header": "DWeb Camp 2023: Discovering Flows",
+          "content": [
+            "When:",
+            "June 21-25, 2023",
+            "(past)",
+            "Location:",
+            "Camp Navarro, California",
+            "Nature. Technology. Community. You. Join us in the California redwoods to tap into these hidden flows, to amplify our collective impact in the world."
+          ]
+        },
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "When:",
+            "Thursday, June 15th, 2023 at 16:00 (UTC)",
+            "(past)",
+            "Location:",
+            "Zoom - link sent prior to event",
+            "Join members of the Holochain team and other people to try a distributed Holochain application."
+          ]
+        },
+        {
+          "header": "Web3 Berlin",
+          "content": [
+            "When:",
+            "Saturday & Sunday, June 10-11, 2023",
+            "(past)",
+            "Location:",
+            "Estrel Hotel Conference Center, Berlin",
+            "Mary Camacho, Executive Director of Holochain will be giving a keynote presentation at 11:45am"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/",
+      "title": "Upcoming Events",
+      "sections": [
+        {
+          "header": "Token2049 Singapore",
+          "content": [
+            "When:",
+            "September 18 – 19, 2024",
+            "Location:",
+            "Marina Bay Sands, Singapore",
+            "The Holochain team is set to participate in TOKEN2049 in Singapore on September 18–19."
+          ]
+        },
+        {
+          "header": "Zebu Live 2024",
+          "content": [
+            "When:",
+            "October 10 – 11, 2024",
+            "Location:",
+            "London, UK",
+            "Join Mary Camacho and the Holochain team at Zebu Live 2024 on October 10–11."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/collaborative-finance-2",
+      "title": "Collaborative Finance 2",
+      "sections": [
+        {
+          "header": "Collaborative Finance 2",
+          "content": [
+            "We are sponsoring the Collaborative Finance Retreat by Crypto Commons Association (CCA). All who are interested are welcome to join their community in re-imagining investment, ownership, pensions, money, cooperation, supply chains, and resilience."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/crypto-and-digital-assets-regulation-and-compliance",
+      "title": "Crypto and Digital Assets Regulation & Compliance",
+      "sections": [
+        {
+          "header": "Crypto and Digital Assets Regulation & Compliance",
+          "content": [
+            "Mary Camacho, CEO of Holo Ltd will be a featured panelist engaging with leaders across industries to explore approaches being taken to regulate the metaverse. Geared toward professionals in the compliance and policy sectors, this panel will delve into how we can ensure personal ownership of digital assets and and control digital identity, as well as how regulators might treat interoperability within regulatory frameworks and finally how distributed systems can minimize the the spread of misinformation online."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/crypto-commons-gathering-2023",
+      "title": "Crypto Commons Gathering 2023",
+      "sections": [
+        {
+          "header": "Crypto Commons Gathering 2023",
+          "content": [
+            "Arthur Brock, Co-founder of Holochain, will be a featured speaker at Crypto Commons Gathering 2023. Don't miss this opportunity to join him and other leading professionals and projects shaping the conversation on Commons on the blockchain. Contribute your insights and be a part of the thriving Commoners movement. Register today!"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/dazzlecon-2023",
+      "title": "DazzleCon 2023",
+      "sections": [
+        {
+          "header": "DazzleCon 2023",
+          "content": [
+            "Building the new economy together. Art Brock and Mary Camacho join Zebras Unite for 2 days of inspiring and educational content, and collaborative design sessions to co-create the business ecosystem we all need to thrive. Participants will experience collaborative hands-on sessions, actionable talks, meet interdisciplinary practitioners, and have ample time for intimate discussion, collective problem-solving, and networking."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/developer-office-hours-with-holochain-core-devs",
+      "title": "Developer Office Hours with Holochain Core Devs",
+      "sections": [
+        {
+          "header": "Developer Office Hours with Holochain Core Devs",
+          "content": [
+            "Designed to enable developers building on holochain to meet with Core Developers, ask questions, make suggestions and collaborate on solutions. This one hour event will be held every other Wednesday."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/developer-office-hours-with-holochain-core-devs-1",
+      "title": "Developer Office Hours with Holochain Core Devs",
+      "sections": [
+        {
+          "header": "Developer Office Hours with Holochain Core Devs",
+          "content": [
+            "Designed to enable developers building on holochain to meet with Core Developers, ask questions, make suggestions and collaborate on solutions. This one hour event will be held every other Wednesday."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/digital-identity-unconference-europe-2024",
+      "title": "Digital Identity unConference Europe 2024",
+      "sections": [
+        {
+          "header": "Digital Identity unConference Europe 2024",
+          "content": [
+            "Matthew Schutte is attending the Digital Identity unConference Europe in Zurich on June 18, 2024. This unconference is an opportunity to collaborate on digital identity with governments, citizens, and companies across Europe."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/dweb-camp-2024",
+      "title": "DWeb Camp 2024",
+      "sections": [
+        {
+          "header": "DWeb Camp 2024",
+          "content": [
+            "The Holochain team will once again have a strong presence at DWeb Camp this August, to explore the theme of migration and how we can move together toward the Web we want and deserve. DWeb Camp is a five-day retreat set in the beautiful redwoods near the Mendocino coast of California, for builders and dreamers to connect, learn, share and have fun as we work towards building a better, decentralized web. Please join us!"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/dweb-sf-meetup:-co-creation-and-the-distributed-web",
+      "title": "DWeb SF Meetup: Co-Creation & the Distributed Web",
+      "sections": [
+        {
+          "header": "DWeb SF Meetup: Co-Creation & the Distributed Web",
+          "content": [
+            "CALLING all creators, designers, and Internet liberators — those drawn to innovations and disruptions enabling new forms of collaboration without Big Tech's capture and control!",
+            "Join us for an evening of play and discovery sponsored by DWeb SF, Holochain and the Internet Archive, where you’ll have a chance to create on a collaborative canvas (like a distributed r/place) and experience peer-to-peer software in real-time. Holochain will be showcasing some of their recently released P-2-P apps including Fractal Tribute, where multiple creators work on collaborative canvases & easily mint NFTs where value is distributed proportionately to one's creative contributions.",
+            "BRING a laptop if you want to play with these P2P apps on your own device. After that, we’ll break into some small group circles to explore the creative possibilities you see for the future of the decentralized web."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/emerging-tech-2024",
+      "title": "Emerging Tech 2024",
+      "sections": [
+        {
+          "header": "Emerging Tech 2024",
+          "content": [
+            "Join Mary at Emerging Tech 2024 on Friday, June 14th in Washington, D.C. This is a place for policy to meet the edges of innovation, focussed on cutting edge developments in generative AI, XR technologies, and the decentralized web."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/ethdenver-2024",
+      "title": "ETHDenver 2024",
+      "sections": [
+        {
+          "header": "ETHDenver 2024",
+          "content": [
+            "Holochain is sponsoring ETHDenver 2024. Join us for workshops, BUIDL teams, and Expo with showcases for Defi and Regen. We're excited to have many people from our team including core team devs and founders."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/european-identity-and-cloud-conference-2024",
+      "title": "European Identity and Cloud Conference 2024",
+      "sections": [
+        {
+          "header": "European Identity and Cloud Conference 2024",
+          "content": [
+            "Both Holo and Holochain team members are attending this conference in Berlin. The future of both digital identity and the cloud are issues which we're very much seeking to learn from other experts in the field–and share our learnings—as we all build tools towards a greater collective intelligence."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/holochain-development-environment-setup-support",
+      "title": "Holochain Development Environment Setup Support",
+      "sections": [
+        {
+          "header": "Holochain Development Environment Setup Support",
+          "content": [
+            "Holochain Development Environment Setup Support sessions aim to aid community members who are encountering issues installing or using the Holochain Development Environment --- a first step in building Holochain Apps.",
+            "Please attempt to install the Development Environment per the instructions at",
+            "(note: you can skip the final step in that tutorial that covers scaffolding an example.)",
+            "If you succeed in installing the Dev Env and don't have any issues or questions, congrats!",
+            "However, if you have questions, or something isn't working:",
+            {
+              "lists": [
+                "Ask for help in the  ?-q-and-a-beginners  Discord channel and",
+                "Sign up for this setup support session and members of the Holochain Core team will answer questions and help troubleshoot problems."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/holochain-happy-hour",
+      "title": "Holochain hAppy Hour",
+      "sections": [
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "Join members of the Holochain team and other people to try a distributed Holochain application. Experience what it is like to use serverless, gas-less, Web3 apps. We’ll play a game and iterate some new rules together as we consider the implications and possibilities of a truly P2P world."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/holochain-happy-hour-1",
+      "title": "Holochain hAppy Hour",
+      "sections": [
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "Join members of the Holochain team and other people to try a distributed Holochain application. Experience what it is like to use serverless, gas-less, Web3 apps. We’ll play a game and iterate some new rules together as we consider the implications and possibilities of a truly P2P world."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/holochain-happy-hour-2",
+      "title": "Holochain hAppy Hour",
+      "sections": [
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "Join the Holochain team and community members in experiencing what it’s like to use a serverless, token-less, peer-to-peer, Web3 app. In our hour long session, you will install a Holochain App and get hands-on together before diving into some conversations that will help us all get to know one another a little better."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/holochain-happy-hour-3",
+      "title": "Holochain hAppy Hour",
+      "sections": [
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "Join the Holochain team and community members in experiencing what it’s like to use a serverless, token-less, peer-to-peer, Web3 app. In our hour long session, you will install a Holochain App and get hands-on together before diving into some conversations that will help us all get to know one another a little better."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/holochain-happy-hour-4",
+      "title": "Holochain hAppy Hour",
+      "sections": [
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "Join the Holochain team and community members in experiencing what it’s like to use a serverless, token-less, peer-to-peer, Web3 app. In our hour long session, you will install a Holochain App and get hands-on together before diving into some conversations that will help us all get to know one another a little better."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/holochain-happy-hour-5",
+      "title": "Holochain hAppy Hour",
+      "sections": [
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "Join the Holochain team and community members in experiencing what it’s like to use a serverless, token-less, peer-to-peer, Web3 app. In our hour long session, you will install a Holochain App and get hands-on together before diving into some conversations that will help us all get to know one another a little better."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/holochain-happy-hour-6",
+      "title": "Holochain hAppy Hour",
+      "sections": [
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "Join the Holochain team and community members in experiencing what it’s like to use a serverless, token-less, peer-to-peer, Web3 app. In our hour long session, you will install a Holochain App and get hands-on together before diving into some conversations that will help us all get to know one another a little better."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/holochain-happy-hour-7",
+      "title": "Holochain hAppy Hour",
+      "sections": [
+        {
+          "header": "Holochain hAppy Hour",
+          "content": [
+            "Join the Holochain team and community members in experiencing what it’s like to use a serverless, token-less, peer-to-peer, Web3 app. In our hour long session, you will install a Holochain App and get hands-on together before diving into some conversations that will help us all get to know one another a little better."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/identity-week",
+      "title": "Identity Week",
+      "sections": [
+        {
+          "header": "Identity Week",
+          "content": [
+            "Mary will be speaking about distributed digital identity on June 12th at Identity Week Europe. The conference and exhibition will bring together the brightest minds in the sector to promote innovation, new thinking, and more effective identity solutions."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/metafest-2023",
+      "title": "MetaFest 2023",
+      "sections": [
+        {
+          "header": "MetaFest 2023",
+          "content": [
+            "Join Arthur Brock & global Holochain team and community members at MetaFest 2023 in sunny Croatia. Explore Regen Finance, DAOs & DJs. We'll offer a session about setting up the right incentives in you DAO or community and practicums for devs to Build a Web3 Dapp to Start a Soft DAO."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/nft-san-francisco",
+      "title": "NFT San Francisco",
+      "sections": [
+        {
+          "header": "NFT San Francisco",
+          "content": [
+            "Join us at NFT San Francisco on November 6-7, where we will be taking part in panel discussions and showcasing Fractal Tribute, a collaborative NFT art game developed by Mary Camacho and Josh Hardy. NFT San Francisco is a two-day conference dedicated to fostering a diverse community of NFT artists, investors, entrepreneurs, web3 enthusiasts and more."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/nordic-blockchain-conference",
+      "title": "Nordic Blockchain Conference",
+      "sections": [
+        {
+          "header": "Nordic Blockchain Conference",
+          "content": [
+            "On September 6 and 7, Mary Camacho, Executive Director of Holochain, will be at the Nordic Blockchain Conference (NBC) and taking the stage to discuss the vast potential contributions of the Web3 space. NBC brings together the largest Web3 network in the Nordics with the global community, featuring industry experts, thought leaders, educators, and professionals."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/open-source-summit-europe",
+      "title": "Open Source Summit Europe",
+      "sections": [
+        {
+          "header": "Open Source Summit Europe",
+          "content": [
+            "Members of the Holochain team wil be at the Linux Foundation's Open Source Summit Europe, the premier event for open source developers, technologists, and community leaders to collaborate, share information, solve problems, and gain knowledge, furthering open source innovation and ensuring a sustainable open source ecosystem. It is the gathering place for open-source code and community contributors. Open Source Summit is a conference umbrella, composed of a collection of events covering the most important technologies, topics, and issues affecting open source today. As a sponsor this year, you will find us in many of the mini-conferences, from OpenJS to OpenCloud and more. We'll also have a booth in the expo hall giving demos and playing P2P games with Holochain."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/our-networks",
+      "title": "Our Networks",
+      "sections": [
+        {
+          "header": "Our Networks",
+          "content": [
+            "We are sponsoring the Our Networks event on July 27, 2024 as part of LOCALHOST. This event is about transitional technologies and computing forms that break away from always-on connectivity. Join some members of the Holochain team for discussions on local-first practices, solar-powered servers, folk software, and permacomputing."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/refi-unconference-barcelona",
+      "title": "ReFi Unconference Barcelona",
+      "sections": [
+        {
+          "header": "ReFi Unconference Barcelona",
+          "content": [
+            "Join Mary at ReFi Barcelona, a local gathering of the regenerative finance community in Catalunya and Spain, sponsored by the CCA. From April 20th to 25th, the event will focus on harnessing collective community energy to build a path to safeguard our planet."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/transformative-impact-summit",
+      "title": "Transformative Impact Summit",
+      "sections": [
+        {
+          "header": "Transformative Impact Summit",
+          "content": [
+            "Join Matthew Schutte and other changemakers, founders, and policymakers in Zanzibar, Tanzania, at the Transformative Impact Summit on June 7. This event spotlights the work of those making a better world and empowering them with exposure, support, connection, and funding."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/web3-berlin",
+      "title": "Web3 Berlin",
+      "sections": [
+        {
+          "header": "Web3 Berlin",
+          "content": [
+            "Mary Camacho, Executive Director of Holochain will be giving a keynote presentation at 11:45am on the Main stage, Sunday June 11th. Come connect and discover how Holochain can add validation and inforgeability to NFTs and how communities can benefit from the control, trust and transparency Holochain P2P apps provide without gas or centralised hosting costs.",
+            "WEB3 BERLIN June 10-11, 2023",
+            "Inclusivity, Networking and Onboarding",
+            "Join the Web3 community at Web3 Berlin, the leading annual conference for those passionate about the future of the web3 ecosystem.",
+            "The event focuses on inclusivity, networking, education and onboarding to Web3 space.",
+            "Explore cutting-edge trends, engage with expert speakers, and network with industry professionals. Be a part of shaping the future of the web3 community and build with us The Biggest Crypto & NFT Conference - register for Web3 Berlin today!"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/web3-dubai",
+      "title": "Web3 Dubai",
+      "sections": [
+        {
+          "header": "Web3 Dubai",
+          "content": [
+            "Join Matthew Schutte on April 30th at Web3 Dubai as he discusses big wave surfing and internet innovation with the web3 community. Web3 Dubai is a conference dedicated to those passionate about the future of the web3 ecosystem, focusing in inclusivity, networking, education, and onboarding to the Web3 space."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/web3-summit-2024",
+      "title": "Web3 Summit 2024",
+      "sections": [
+        {
+          "header": "Web3 Summit 2024",
+          "content": [
+            "Web3 Summit offers an open and collaborative environment for the community to craft their own programming. Join us in Berlin from August 19–21 for a lineup of esteemed speakers. Individuals, teams, and projects are invited to utilize the remaining space for workshops, presentations, and AMA sessions."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/zanzalu",
+      "title": "Zanzalu",
+      "sections": [
+        {
+          "header": "Zanzalu",
+          "content": [
+            "Join Matthew Schutte and the community of builders, entrepreneurs, and outside-the-box thinkers seeking to meaningfully progress human flourishing through technological and social innovation. The event is set to cultivate a growth ecosystem in Fumba Town, Zanzibar by incubating experimentation, nurturing community, and inspiring intentional action."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/events/zebulive-2023",
+      "title": "ZebuLive 2023",
+      "sections": [
+        {
+          "header": "ZebuLive 2023",
+          "content": [
+            "Join Mary Camacho from Holochain and Josh Hardy with the Rain Protocol at Zebu Live where they will speak on panels and run a workshop for Holochain NFT Minting with Rain. Zebu Live is an immersive 2-day experience that showcases the people of the Web 3 revolution. It will bring together as many Web3 industry perspectives as possible to work towards the goal of mainstream adoption of the tech. Come to London and enjoy conversations and parties with over 3,000 Crypto, DeFi, and NFT professionals from all around the world. It will feature 200+ change-making speakers across 3 stages from top Web3 brands globally, established traditional brands breaking into web3, and startups pushing the edge of innovation. They will speak on topics in the focus of digital assets and digital ownership including Crypto, DeFi, NFTs, the Metaverse, DAOs, and Gaming."
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://holochain.org/holochain-developer-training-oct-2023/",
+      "title": "Holochain Developer Training, October 2023",
+      "sections": [
+        {
+          "header": "Learn how to design, develop, and deploy Holochain apps in 4 days",
+          "content": [
+            "Holochain Developer Training",
+            {
+              "lists": [
+                "Interactive, proven course format taught by world-class instructors",
+                "Vetted, intimate cohort of experienced developers",
+                "Online training course—join us from home or office",
+                "Holochain fundamentals, data structures, and APIs",
+                "Full and partial scholarships available"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "Holochain Developer Training",
+          "content": [
+            "Interactive, proven course format taught by world-class instructors",
+            "Vetted, intimate cohort of experienced developers",
+            "Online training course—join us from home or office",
+            "Holochain fundamentals, data structures, and APIs",
+            "Full and partial scholarships available"
+          ]
+        },
+        {
+          "header": "Build web3 apps",
+          "content": [
+            "Holochain is an open-source framework for developing peer-to-peer applications that hit a sweet spot of security, reliability, and performance. It is poised to extend the capacities of blockchain by providing a framework for rapid and easy web3 app development. Together we can help create a new web that supports the technical, social, and economic coordination that today's world demands."
+          ]
+        },
+        {
+          "header": "Seeking full-stack devs who know Rust and are ready to:",
+          "content": [
+            "Develop immediate skill in building distributed Holochain apps",
+            "Improve their peer-to-peer software architecture and design skills",
+            "Build Holochain apps with a small group of like-minded, experienced developers"
+          ]
+        },
+        {
+          "header": "Details",
+          "content": [
+            "Training Dates",
+            ": October 2 – 5, 2023",
+            "Build Dates",
+            ": October 6 – 7, 2023",
+            "Location",
+            ": Online classroom",
+            "Program Components",
+            ":",
+            {
+              "lists": [
+                "Individual and group exercises",
+                "Pairing and feedback sessions",
+                "Lectures",
+                "Final projects"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "Instructors",
+          "content": [
+            "Marcus Phillips",
+            "is a former engineer for Twitter, co-founder of the immersive software engineering school Hack Reactor, and a long-standing advocate for the power of cryptographic systems to create healthier incentives and social coordination.",
+            "Guillem Cordoba",
+            "has been building Holochain applications for several years and actively teaching others how to do the same for nearly as long. He was a lead developer in the most recent community-led Holochain Dev Camp and is passionate about developing applications on Holochain.",
+            "Additional members of the Holochain community may be in attendance to contribute as instructors, students, or teaching assistants."
+          ]
+        },
+        {
+          "header": "Course Details",
+          "content": [
+            "The intention of this course is to prepare you to design, develop, and deploy Holochain apps. The intensive four day training will run each day from 10:30am to 6:30pm, Eastern Standard Time (EST). The build dates will also be during the day in EST."
+          ]
+        },
+        {
+          "header": "Primary Topics",
+          "content": [
+            "Holochain fundamentals",
+            "Holochain dev environment",
+            "Basic HDK functions",
+            "Source chains",
+            "Anchors and paths",
+            "Capability tokens and P2P function calls",
+            "Signals",
+            "Validation rules"
+          ]
+        },
+        {
+          "header": "Target Competencies",
+          "content": [
+            "At the end of the program, you'll be able to:",
+            "Develop Holochain applications in a clean, simple, and robust manner",
+            "Think and reason about distributed systems from an agent-centric perspective",
+            "Understand the Holochain development environment and know how to navigate it efficiently",
+            "Package and release your own Holochain applications",
+            "Architect small to medium Holochain applications"
+          ]
+        },
+        {
+          "header": "Course Requirements",
+          "content": [
+            "Basic ability to write, compile, and run Rust code will be necessary for following the coding exercises.",
+            "Familiarity with developer tools such as the command line, Git, and an IDE or code editor such as Visual Studio Code will be needed for various hands-on exercises.",
+            "Basic knowledge of web-based front-end development will be instrumental in helping you create, test, and demo an app. You don’t need to be a UX expert; this course is primarily about understanding Holochain itself.",
+            "Good collaborative and interpersonal skills; this is a co-learning environment."
+          ]
+        },
+        {
+          "header": "How much Rust experience do you need?",
+          "content": [
+            "As the Holochain framework is built on Rust, this course assumes some familiarity with the language in order to fully participate.",
+            "If you’ve been programming for a while but don’t know Rust, we have Rust study resources that you can use to prepare for the tech check section of our application process.",
+            "Review chapters 1–11 in the",
+            "Do the accompanying",
+            "Get extra practice doing some easy to medium"
+          ]
+        },
+        {
+          "header": "Pricing & Scholarships",
+          "content": [
+            "Our pricing and scholarships reflect our values, goals, and stage-of-development. We’re partnering with Mythothesia’s experienced developer education team who have facilitated many training programs. We’re offering this online course at a competitive price to grow our developer community and support the many projects seeking qualified Holochain developers.",
+            "Refundable deposit",
+            ": $100 USD",
+            "Full cost",
+            ": $1100 USD"
+          ]
+        },
+        {
+          "header": "Full & Partial Scholarships Available",
+          "content": [
+            "We are offering a range of scholarships to help increase access for qualified students of all backgrounds. Please let us know what you need, so we can start a conversation and direct our scholarship funds appropriately.",
+            "Important attributes include:",
+            "Candidate is likely to be very successful in both learning and contributing",
+            "Candidate fits the needs of an emerging ecosystem of Holochain developers - in interests, passions, and future goals",
+            "You can request a scholarship at the end of the application process."
+          ]
+        },
+        {
+          "header": "More about Holochain, Holo, and Mythosthesia",
+          "content": [
+            "Holochain",
+            "is delivering the technical foundations of web3 to support thriving, regenerative, creative communities and economies.",
+            "Holo",
+            "hosting connects Holochain's serverless peer-to-peer apps to the centralized Internet by making Holochain apps available in browsers. The Holo network is hosted by thousands of people using their own micro-servers who are paid in cryptocurrency for their efforts.",
+            "Mythosthesia",
+            "is Holochain's Educational Partner focused on designing and delivering world-class developer trainings."
+          ]
+        },
+        {
+          "header": "The Fine Print",
+          "content": [
+            "We plan to inform accepted applicants by 18 Sep 2023.",
+            "The selection process includes the initial application plus a live interview via Zoom, and requires full acceptance of the Terms and Conditions.",
+            "We're seeking engaged and committed developers—thus the $100 deposit! This deposit will be fully refunded in the event that your application is not accepted.",
+            "Scholarships and supporting funds are available! They will prioritize program fit, as determined by our applicant questionnaire and an initial interview process. Please request a scholarship at the end of the application form. Please note: Scholarships cannot be applied to the application deposit itself.",
+            "This is not a beginner programming course; we expect devs to come with a sound understanding of traditional full-stack programming and Rust. For experienced Devs willing to self-learn Rust before the training, we will send Rust study resources before the tech check which is a part of the class evaluation process."
+          ]
+        }
+      ]
+    }
+  ]
+}

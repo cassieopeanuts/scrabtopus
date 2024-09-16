@@ -30,6 +30,58 @@ struct Section {
 enum Content {
     Paragraph(String),
     List { lists: Vec<String> },
+    // You can add more variants here if needed, e.g., Images, Tables, etc.
+}
+
+/// Recursively collects content from an element, handling nested structures.
+fn collect_content(
+    element: &ElementRef,
+    content: &mut Vec<Content>,
+    list_selector: &Selector,
+    paragraph_selector: &Selector,
+    exclusion_selector: &Selector,
+    list_item_selector: &Selector,
+) {
+    for child in element.children() {
+        if let Some(elem) = ElementRef::wrap(child) {
+            if exclusion_selector.matches(&elem) {
+                continue; // Skip excluded elements
+            }
+
+            if paragraph_selector.matches(&elem) {
+                let para_text = elem.text().collect::<Vec<_>>().join(" ").trim().to_string();
+                if !para_text.is_empty() {
+                    content.push(Content::Paragraph(para_text));
+                }
+            } else if list_selector.matches(&elem) {
+                let items = elem
+                    .select(&list_item_selector)
+                    .filter_map(|li| {
+                        let text = li.text().collect::<Vec<_>>().join(" ").trim().to_string();
+                        if !text.is_empty() {
+                            Some(text)
+                        } else {
+                            None
+                        }
+                    })
+                    .collect::<Vec<String>>();
+                if !items.is_empty() {
+                    content.push(Content::List { lists: items });
+                }
+            } else {
+                // Recursively process child elements
+                collect_content(&elem, content, list_selector, paragraph_selector, exclusion_selector, list_item_selector);
+            }
+        } else {
+            // Handle text nodes that are not wrapped by elements
+            if let Some(text) = child.value().as_text() {
+                let text = text.trim().to_string();
+                if !text.is_empty() {
+                    content.push(Content::Paragraph(text));
+                }
+            }
+        }
+    }
 }
 
 /// Scrapes meaningful text from a single page.
@@ -41,7 +93,7 @@ fn scrape_page(document: &Html, url: &Url) -> Result<Page, Box<dyn Error>> {
     let paragraph_selector = Selector::parse("p").unwrap(); // Paragraphs
     let list_selector = Selector::parse("ul, ol").unwrap(); // Lists
     let list_item_selector = Selector::parse("li").unwrap(); // List items
-    let exclusion_selector = Selector::parse("button, nav, footer, a, script, style, svg, img").unwrap(); // Exclude these elements
+    let exclusion_selector = Selector::parse("button, nav, footer, a, script, style, svg, img, iframe, video, audio").unwrap(); // Exclude these elements
 
     // Initialize page struct
     let mut page = Page {
@@ -87,25 +139,21 @@ fn scrape_page(document: &Html, url: &Url) -> Result<Page, Box<dyn Error>> {
                         continue;
                     }
 
-                    // Extract paragraphs
-                    if paragraph_selector.matches(&element) {
-                        let para_text = element.text().collect::<Vec<_>>().join(" ").trim().to_string();
-                        if !para_text.is_empty() {
-                            section.content.push(Content::Paragraph(para_text));
-                        }
-                    }
-
-                    // Extract lists
-                    if list_selector.matches(&element) {
-                        let mut items = Vec::new();
-                        for li in element.select(&list_item_selector) {
-                            let li_text = li.text().collect::<Vec<_>>().join(" ").trim().to_string();
-                            if !li_text.is_empty() {
-                                items.push(li_text);
-                            }
-                        }
-                        if !items.is_empty() {
-                            section.content.push(Content::List { lists: items });
+                    // Collect content recursively
+                    collect_content(
+                        &element,
+                        &mut section.content,
+                        &list_selector,
+                        &paragraph_selector,
+                        &exclusion_selector,
+                        &list_item_selector,
+                    );
+                } else {
+                    // Handle text nodes that are not wrapped by elements
+                    if let Some(text) = sib.value().as_text() {
+                        let text = text.trim().to_string();
+                        if !text.is_empty() {
+                            section.content.push(Content::Paragraph(text));
                         }
                     }
                 }
